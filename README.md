@@ -1,70 +1,113 @@
-# Getting Started with Create React App
+<!-- CODENAME: BANANA -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project Overview
 
-## Available Scripts
+## Project Name
 
-In the project directory, you can run:
+Meas Realty - F.A.M Channel
 
-### `npm start`
+## Project Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and/or functionality.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Wireframes
 
-### `npm test`
+![Screen Shot 2021-06-28 at 6 03 54 PM](https://user-images.githubusercontent.com/83625775/123721722-c681d680-d83b-11eb-95ed-903efdf3b15a.png)
+![Screen Shot 2021-06-28 at 6 04 27 PM](https://user-images.githubusercontent.com/83625775/123721756-d4375c00-d83b-11eb-9a04-9e7d14ed5909.png)
+![Screen Shot 2021-06-28 at 6 04 42 PM](https://user-images.githubusercontent.com/83625775/123721762-d699b600-d83b-11eb-9031-b242722997db.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Component Hierarchy
 
-### `npm run build`
+![Screen Shot 2021-06-28 at 6 04 58 PM](https://user-images.githubusercontent.com/83625775/123721779-e1544b00-d83b-11eb-915c-c2cab3736a3f.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## API and Data Sample
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```json
+{
+  "records": [
+    {
+      "id": "rechQgcPFd5XyBTUW",
+      "fields": {
+        "name": "Ashley H.",
+        "email": "ashley.huynh@yahoo.com",
+        "about yourself": "Marketing background and starting software engineering. I am excited to start this journey with Meas Realty and become a real estate agent",
+        "wins": "Sent my application to DRE for approval! WOHOO!",
+        "imgURL": "https://imgur.com/a/acWzQUy",
+        "event": "forth of july weekend bbq"
+      },
+      "createdTime": "2021-06-28T18:55:53.000Z"
+    },
+    {
+      "id": "recsEtDKQxPzjnKN6",
+      "fields": {},
+      "createdTime": "2021-06-28T18:55:53.000Z"
+    },
+    {
+      "id": "recNeL2pgO43PlMmW",
+      "fields": {},
+      "createdTime": "2021-06-28T18:55:53.000Z"
+    }
+  ],
+  "offset": "recNeL2pgO43PlMmW"
+}
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## MVP/PostMVP
 
-### `npm run eject`
+#### MVP
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Create and render airtable data
+- Allow user to input status/data
+- Render new data to correlating component
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### PostMVP
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Add Like Buttons to WINS page
+- Set default images in the event no image is uploaded
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Project Schedule
 
-## Learn More
+| Day        | Deliverable                                        | Status     |
+| ---------- | -------------------------------------------------- | ---------- |
+| June 28-29 | Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete |
+| June 29    | Project Approval                                   | Incomplete |
+| July 30    | Core Application Structure (HTML, CSS, etc.)       | Incomplete |
+| July 1     | Initial Clickable Model                            | Incomplete |
+| July 2     | MVP                                                | Incomplete |
+| July 6     | Presentations                                      | Incomplete |
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Timeframes
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| Component        | Priority | Estimated Time | Time Invested | Actual Time |
+| ---------------- | :------: | :------------: | :-----------: | :---------: |
+| WireFrame        |    H     |      4hrs      |     3hrs      |    3hrs     |
+| General Research |    H     |      3hrs      |      TDB      |     TDB     |
+| Inital React     |    H     |      3hrs      |      TDB      |     TBD     |
+| Create Skeleton  |    H     |      3hrs      |      TDB      |     TBD     |
+| Working with API |    H     |      3hrs      |      TBD      |     TDB     |
+| Render Results   |    H     |      3hrs      |      TBD      |     TBD     |
+| Basic Styling    |    H     |      3hrs      |      TBD      |     TBD     |
+| CSS For Results  |    H     |      3hrs      |      TBD      |     TBD     |
+| Media Query      |    H     |      3hrs      |      TBD      |     TBD     |
+| Debugging        |    H     |      3hrs      |      TBD      |     TBD     |
 
-### Code Splitting
+| Total | H | 31hrs| TBD | TBD |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## SWOT Analysis
 
-### Analyzing the Bundle Size
+### Strengths:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+I have a strong grasp of using react and rendering data. I feel confident I can achieve MVP as well as Post-MVP.
 
-### Making a Progressive Web App
+### Weaknesses:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+I tend to get caught up in styling inbetween writing actual code and rendering it onto the page. I want to make sure I keep on task and come back to the finishing touches of styling at the end.
+I also am not too confident in media query just yet.
 
-### Advanced Configuration
+### Opportunities:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+I have the opportunity to use an actual company and present a fun way of interacting with new agents.
 
-### Deployment
+### Threats:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Time is important. We are in project week during a holiday and family time is very important to me. I want to make sure I am staying on my timeline to deploy as well as present in a timely manner.
