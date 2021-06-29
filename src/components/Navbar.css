@@ -1,0 +1,36 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 90px;
+  overflow: hidden;
+  border-bottom: 2px solid #000000;
+}
+.companylogo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+h3 {
+  font-family: "Castoro", serif;
+  margin-left: 0.3rem;
+  margin-top: 4rem;
+  color: black;
+}
+.navlink {
+  font-family: "Castoro", serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #294894;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  font-size: 1em;
+  margin-top: 3rem;
+}
+.navbar ul li {
+  padding: 0.5rem;
+}

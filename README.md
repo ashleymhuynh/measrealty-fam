@@ -28,28 +28,29 @@ Use this section to describe your final project and perhaps any links to relevan
     {
       "id": "rechQgcPFd5XyBTUW",
       "fields": {
-        "name": "Ashley H.",
         "email": "ashley.huynh@yahoo.com",
+        "name": "Ashley H.",
         "about yourself": "Marketing background and starting software engineering. I am excited to start this journey with Meas Realty and become a real estate agent",
-        "wins": "Sent my application to DRE for approval! WOHOO!",
-        "imgURL": "https://imgur.com/a/acWzQUy",
-        "event": "forth of july weekend bbq"
+        "imgURL": "https://imgur.com/a/acWzQUy"
       },
       "createdTime": "2021-06-28T18:55:53.000Z"
     },
+
+
+
+
+  "records": [
     {
-      "id": "recsEtDKQxPzjnKN6",
-      "fields": {},
-      "createdTime": "2021-06-28T18:55:53.000Z"
+      "id": "recchn4pUmBOkdWwr",
+      "fields": {
+        "wins": "Sent my application to DRE for approval! WOHOO!",
+        "name": "Ashley H.",
+        "mood": "Excited!🥳"
+      },
+      "createdTime": "2021-06-29T14:28:22.000Z"
     },
-    {
-      "id": "recNeL2pgO43PlMmW",
-      "fields": {},
-      "createdTime": "2021-06-28T18:55:53.000Z"
-    }
-  ],
-  "offset": "recNeL2pgO43PlMmW"
-}
+  ]
+
 ```
 
 ## MVP/PostMVP
@@ -57,13 +58,13 @@ Use this section to describe your final project and perhaps any links to relevan
 #### MVP
 
 - Create and render airtable data
-- Allow user to input status/data
-- Render new data to correlating component
+- Allow user to input fam status and wins
+- Render new data fam status and wins to correlating component
 
 #### PostMVP
 
 - Add Like Buttons to WINS page
-- Set default images in the event no image is uploaded
+- Create Events Component with festive css style
 
 ## Project Schedule
 
@@ -78,20 +79,22 @@ Use this section to describe your final project and perhaps any links to relevan
 
 ## Timeframes
 
-| Component        | Priority | Estimated Time | Time Invested | Actual Time |
-| ---------------- | :------: | :------------: | :-----------: | :---------: |
-| WireFrame        |    H     |      4hrs      |     3hrs      |    3hrs     |
-| General Research |    H     |      3hrs      |      TDB      |     TDB     |
-| Inital React     |    H     |      3hrs      |      TDB      |     TBD     |
-| Create Skeleton  |    H     |      3hrs      |      TDB      |     TBD     |
-| Working with API |    H     |      3hrs      |      TBD      |     TDB     |
-| Render Results   |    H     |      3hrs      |      TBD      |     TBD     |
-| Basic Styling    |    H     |      3hrs      |      TBD      |     TBD     |
-| CSS For Results  |    H     |      3hrs      |      TBD      |     TBD     |
-| Media Query      |    H     |      3hrs      |      TBD      |     TBD     |
-| Debugging        |    H     |      3hrs      |      TBD      |     TBD     |
+| Component          | Priority | Estimated Time | Time Invested | Actual Time |
+| ------------------ | :------: | :------------: | :-----------: | :---------: |
+| WireFrame          |    H     |      4hrs      |     3hrs      |    3hrs     |
+| General Research   |    H     |      3hrs      |      TDB      |     TDB     |
+| Inital React       |    H     |      3hrs      |      TDB      |     TBD     |
+| Create Skeleton    |    H     |      3hrs      |      TDB      |     TBD     |
+| Working with API   |    H     |      3hrs      |      TBD      |     TDB     |
+| Render Results     |    H     |      3hrs      |      TBD      |     TBD     |
+| Basic Styling      |    H     |      3hrs      |      TBD      |     TBD     |
+| CSS For Results    |    H     |      3hrs      |      TBD      |     TBD     |
+| Post MVP Rendering |    M     |      3hrs      |      TBD      |     TBD     |
+| Post MVP Style     |    M     |      3hrs      |      TBD      |     TBD     |
+| Media Query        |    H     |      3hrs      |      TBD      |     TBD     |
+| Debugging          |    H     |      3hrs      |      TBD      |     TBD     |
 
-| Total | H | 31hrs| TBD | TBD |
+| Total | H | 37hrs| TBD | TBD |
 
 ## SWOT Analysis
 
