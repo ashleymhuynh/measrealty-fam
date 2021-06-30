@@ -5,17 +5,19 @@ nav {
   right: 0;
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 99%;
   height: 90px;
   overflow: hidden;
   border-bottom: 2px solid #000000;
   background-color: white;
+  margin: 1rem;
+  margin-top: 0;
 }
 .companylogo {
   display: flex;
   align-items: center;
   text-decoration: none;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
 }
 h3 {
   font-family: "Castoro", serif;
@@ -34,8 +36,9 @@ h3 {
   display: flex;
   list-style: none;
   width: 100%;
-  font-size: 1em;
+  font-size: 1.1em;
   margin-top: 3rem;
+  margin-right: 1rem;
 }
 .navbar ul li {
   padding: 0.5rem;

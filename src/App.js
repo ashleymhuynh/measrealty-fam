@@ -2,6 +2,7 @@ import { Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import NewFam from "./components/NewFam";
 import Wins from "./components/Wins";
+import WinsForm from "./components/WinsForm.jsx";
 import FamForm from "./components/FamForm";
 import Footer from "./components/Footer";
 import "./App.css";
@@ -16,6 +17,7 @@ function App() {
           alt="meas realty fam"
           id="headerlogo"
         />
+
         <p>
           Welcome! We are so excited to have you as part of the F.A.M.! We are
           confident that someone with your skill, knowledge, and swag will be a
@@ -33,6 +35,9 @@ function App() {
       </Route>
       <Route path="/wins">
         <Wins />
+      </Route>
+      <Route path="/newwins">
+        <WinsForm />
       </Route>
 
       <footer>

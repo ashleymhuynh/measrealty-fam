@@ -1,0 +1,46 @@
+.WinsForm #header {
+  margin-top: 8rem;
+  margin-bottom: 0;
+  text-align: center;
+  font-family: "Castoro", serif;
+  text-transform: uppercase;
+}
+
+.WinsForm form {
+  font-family: "Castoro", serif;
+  margin: 4rem 35rem;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.WinsForm label {
+  font-size: 1.2rem;
+}
+.WinsForm input,
+.WinsForm textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+.WinsForm #formsubmit {
+  font-family: "Castoro", serif;
+  font-weight: 700;
+  font-size: medium;
+  display: block;
+  margin: 0 auto;
+  margin-top: 1rem;
+  padding: 8px;
+  border: 1px solid #294894;
+  border-radius: 4px;
+  box-shadow: 4px 4px 2px 1px rgba(38, 50, 158, 0.548);
+  background-color: #294894;
+  color: aliceblue;
+  transition-duration: 0.5s;
+}
+
+.WinsForm #formsubmit:hover {
+  background-color: white;
+  color: #294894;
+  font-weight: 700;
+  cursor: pointer;
+}
