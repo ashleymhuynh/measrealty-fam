@@ -12,13 +12,13 @@ function App() {
       <Navbar />
       <Route exact path="/">
         <img
-          src="https://i.imgur.com/XvaMw4b.png"
+          src="https://i.imgur.com/G5ODmWc.png"
           alt="meas realty fam"
           id="headerlogo"
         />
         <p>
-          Welcome! We are so excited to have you as part of the F.A.M! We are
-          confident tjat someone with your sill, knowledge, and swag will be a
+          Welcome! We are so excited to have you as part of the F.A.M.! We are
+          confident that someone with your skill, knowledge, and swag will be a
           great value to the community, especially for those you serve. Speaking
           of community, The Meas Realty Team (M.R.T) wanted to create a platform
           for Future Agents In the Making to come together and celebrate your
