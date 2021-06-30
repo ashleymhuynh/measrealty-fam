@@ -1,0 +1,23 @@
+.Footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-top: 2px solid #294894;
+  background: #294894;
+  opacity: 1;
+  font-family: "Castoro", serif;
+  max-width: 100%;
+  height: 70px;
+}
+h5 {
+  text-align: center;
+  color: white;
+}
+#dre-number {
+  margin-bottom: 2px;
+}
+#copy-right {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}

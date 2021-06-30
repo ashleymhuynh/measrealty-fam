@@ -4,7 +4,7 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <nav>
-      <Link className="companylogo">
+      <Link to="/" className="companylogo">
         <img
           src="https://i.imgur.com/WCMLfzk.jpeg"
           alt="logo"
@@ -15,13 +15,13 @@ function Navbar() {
       </Link>
       <div className="navbar">
         <ul>
-          <Link className="navlink">
+          <Link to="/new" className="navlink">
             <li>New Fam</li>
           </Link>
-          <Link className="navlink">
+          <Link to="/wins" className="navlink">
             <li>Wins</li>
           </Link>
-          <Link className="navlink">
+          <Link to="events" className="navlink">
             <li>Events/Networking</li>
           </Link>
         </ul>

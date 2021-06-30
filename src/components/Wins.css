@@ -1,0 +1,61 @@
+.Wins #header {
+  margin-top: 8rem;
+  margin-bottom: 0;
+  text-align: center;
+  font-family: "Castoro", serif;
+  text-transform: uppercase;
+}
+
+.Wins .container {
+  font-family: "Castoro", serif;
+  display: flex;
+  flex-direction: column;
+  margin: 3rem;
+}
+
+.user-status {
+  border: 4px solid #294894;
+  max-width: 100%;
+  margin: 2rem 1rem;
+  padding: 3rem;
+  box-shadow: 4px 4px 2px 1px rgba(38, 50, 158, 0.548);
+}
+.user-status #user-name {
+  color: red;
+  margin: -20px;
+}
+.user-status .status-text {
+  color: red;
+  margin: -20px;
+}
+
+.user-status #profile-pic {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+/* .user-win {
+  display: flex;
+}
+
+.user-text > * {
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
+  font-size: 12px;
+}
+
+.user-text #user-name {
+  color: #385898;
+  text-decoration: none;
+}
+
+.user-text small {
+  color: #616770;
+}
+
+.status-text {
+  padding: 5px;
+  font-size: 14px;
+} */
