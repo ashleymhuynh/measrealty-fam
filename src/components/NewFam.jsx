@@ -19,7 +19,7 @@ function NewFam() {
     <div className="NewFam">
       <h1 id="header">Welcome to the F.A.M.</h1>
       <Link to="/newfam">
-        <button id="button">Intoduce Yourself</button>
+        <button id="button">Introduce Yourself</button>
       </Link>
       <div className="container">
         {famsData.map((fam) => (

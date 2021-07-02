@@ -100,3 +100,33 @@
     margin-top: 0;
   }
 }
+
+@media screen and (max-width: 376px) {
+  .FamForm h1 {
+    margin-top: 10rem;
+    margin-bottom: 0;
+    font-size: 2rem;
+  }
+  .FamForm form {
+    margin: 1.75rem 3.5rem;
+  }
+  .FamForm label {
+    font-size: 1.2rem;
+  }
+  /*
+  .WinsForm label {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  .WinsForm input,
+  .WinsForm textarea {
+    margin-top: 0.75rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+  }
+  .WinsForm #formsubmit {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  } */
+}
