@@ -14,7 +14,6 @@ function Wins() {
     };
     fetchWinsData();
   });
-
   return (
     <div className="Wins">
       <h1 id="header">For The Win</h1>
@@ -31,8 +30,10 @@ function Wins() {
                 id="profile-pic"
               />
               <p id="user-name">{win.fields.name}</p>
+              <p id="date">
+                <small>{win.fields.timelog}</small>
+              </p>
             </div>
-            <small>{win.createdTime}</small>
             <p className="status-text">{win.fields.wins}</p>
           </div>
         ))}

@@ -19,7 +19,7 @@ nav {
   text-decoration: none;
   margin-left: 0.5rem;
 }
-h3 {
+h2 {
   font-family: "Castoro", serif;
   margin-left: 0.3rem;
   margin-top: 4rem;
@@ -42,4 +42,46 @@ h3 {
 }
 .navbar ul li {
   padding: 0.5rem;
+}
+@media screen and (max-width: 721px) {
+  h2 {
+    font-size: 1.1rem;
+    margin-left: 0.3rem;
+    margin-top: 4rem;
+    color: black;
+  }
+  .navbar ul {
+    font-size: 0.9rem;
+    margin-right: 3rem;
+  }
+}
+
+@media screen and (max-width: 721px) {
+  h2 {
+    font-size: 1.1rem;
+    margin-left: 0.3rem;
+    margin-top: 4rem;
+    color: black;
+  }
+  .navbar ul {
+    font-size: 0.9rem;
+    margin-right: 3rem;
+  }
+}
+@media screen and (max-width: 517px) {
+  h2 {
+    font-size: 0.75rem;
+    margin-left: 0.3rem;
+    margin-top: 2rem;
+    color: black;
+    padding-right: 10px;
+    flex-wrap: nowrap;
+    overflow: visible;
+  }
+  .navbar ul {
+    font-size: 0.75rem;
+  }
+  .navbar ul li {
+    padding: 0.25rem;
+  }
 }

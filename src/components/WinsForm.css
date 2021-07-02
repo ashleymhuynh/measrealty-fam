@@ -8,7 +8,7 @@
 
 .WinsForm form {
   font-family: "Castoro", serif;
-  margin: 4rem 35rem;
+  margin: 4rem 40rem;
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -43,4 +43,59 @@
   color: #294894;
   font-weight: 700;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1400px) {
+  .WinsForm form {
+    margin: 1rem 30rem;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .WinsForm form {
+    margin: 1rem 55vh;
+    display: flex;
+    justify-content: center;
+  }
+  .WinsForm #formsubmit {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .WinsForm form {
+    margin: 1rem 65vh;
+    display: flex;
+    justify-content: center;
+  }
+  .WinsForm #formsubmit {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .WinsForm form {
+    margin: 1rem 20vh;
+    display: flex;
+    justify-content: center;
+  }
+  .WinsForm #formsubmit {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .WinsForm h1 {
+    margin-top: 8rem;
+    font-size: 1.75rem;
+  }
+  .WinsForm form {
+    margin: 1rem 10vh;
+    display: flex;
+    justify-content: center;
+  }
+  .WinsForm label {
+    font-size: 1rem;
+  }
+  .WinsForm #formsubmit {
+    margin-top: 0;
+  }
 }

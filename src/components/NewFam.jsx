@@ -25,7 +25,7 @@ function NewFam() {
         {famsData.map((fam) => (
           <div key={fam.fields.name} className="fam-container">
             <img src={fam.fields.imgURL} alt={fam.fields.name} id="img" />
-            <h2>{fam.fields.name}</h2>
+            <h3>{fam.fields.name}</h3>
             <p>{fam.fields.about}</p>
           </div>
         ))}

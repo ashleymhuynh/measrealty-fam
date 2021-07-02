@@ -11,7 +11,7 @@ function Navbar() {
           width="70"
           id="logo"
         />
-        <h3>MEAS REALTY F.A.M.</h3>
+        <h2>MEAS REALTY F.A.M.</h2>
       </Link>
       <div className="navbar">
         <ul>

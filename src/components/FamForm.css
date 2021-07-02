@@ -8,10 +8,11 @@
 
 .FamForm form {
   font-family: "Castoro", serif;
-  margin: 4rem 3rem;
+  margin: 7vh 50px;
   display: flex;
   flex-direction: column;
   align-items: left;
+  justify-content: center;
 }
 .FamForm label {
   font-size: 1.2rem;
@@ -43,4 +44,59 @@
   color: #294894;
   font-weight: 700;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1400px) {
+  .FamForm form {
+    margin: 1rem 30rem;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .FamForm form {
+    margin: 1rem 55vh;
+    display: flex;
+    justify-content: center;
+  }
+  .FamForm #formsubmit {
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .FamForm form {
+    margin: 1rem 65vh;
+    display: flex;
+    justify-content: center;
+  }
+  .FamForm #formsubmit {
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 600px) {
+  .FamForm form {
+    margin: 1rem 20vh;
+    display: flex;
+    justify-content: center;
+  }
+  .FamForm #formsubmit {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .FamForm h1 {
+    margin-top: 8rem;
+    font-size: 1.75rem;
+  }
+  .FamForm form {
+    margin: 1rem 10vh;
+    display: flex;
+    justify-content: center;
+  }
+  .FamForm label {
+    font-size: 1rem;
+  }
+  .FamForm #formsubmit {
+    margin-top: 0;
+  }
 }
