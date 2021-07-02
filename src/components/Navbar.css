@@ -43,6 +43,31 @@ h2 {
 .navbar ul li {
   padding: 0.5rem;
 }
+@media screen and (max-width: 1025px) {
+  nav {
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 2px solid #000000;
+    background-color: white;
+    margin: 1rem;
+    margin-top: 0;
+  }
+  #logo {
+    width: 70px;
+  }
+  h2 {
+    font-size: 2rem;
+    margin-left: 0.3rem;
+    margin-top: 4rem;
+    color: black;
+  }
+  .navbar ul {
+    font-size: 1.5rem;
+    margin-top: 4.5rem;
+    margin-right: 2rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   h2 {
     font-size: 1.2rem;
@@ -96,5 +121,29 @@ h2 {
   }
   .navbar ul li {
     padding: 0.25rem;
+  }
+}
+@media screen and (max-width: 376px) {
+  nav {
+    height: 120px;
+    overflow: hidden;
+    border-bottom: 2px solid #000000;
+    background-color: white;
+    margin: 1rem;
+    margin-top: 0;
+  }
+  #logo {
+    width: 55px;
+  }
+  h2 {
+    font-size: 1rem;
+    margin-left: 0.3rem;
+    margin-top: 1.75rem;
+    color: black;
+  }
+  .navbar ul {
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    flex-direction: column;
   }
 }

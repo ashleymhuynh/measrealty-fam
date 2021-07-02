@@ -13,7 +13,7 @@ function NewFam() {
       setfamsData(resp.data.records);
     };
     fetchData();
-  });
+  }, []);
 
   return (
     <div className="NewFam">
@@ -23,7 +23,7 @@ function NewFam() {
       </Link>
       <div className="container">
         {famsData.map((fam) => (
-          <div key={fam.fields.name} className="fam-container">
+          <div key={fam.id} className="fam-container">
             <img src={fam.fields.imgURL} alt={fam.fields.name} id="img" />
             <h3>{fam.fields.name}</h3>
             <p>{fam.fields.about}</p>

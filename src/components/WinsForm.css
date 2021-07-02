@@ -72,6 +72,35 @@
     margin-top: 0;
   }
 }
+
+@media screen and (max-width: 1025px) {
+  .WinsForm #header {
+    margin-top: 15rem;
+    margin-bottom: 0;
+    font-size: 4rem;
+  }
+  .WinsForm form {
+    margin: 5rem 10rem;
+    display: flex;
+    justify-content: center;
+  }
+  .WinsForm label {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  .WinsForm input,
+  .WinsForm textarea {
+    margin-top: 0.75rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+  }
+  .WinsForm #formsubmit {
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .WinsForm form {
     margin: 1rem 20vh;
@@ -97,5 +126,33 @@
   }
   .WinsForm #formsubmit {
     margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .WinsForm #header {
+    margin-top: 10rem;
+    margin-bottom: 0;
+    font-size: 2.75rem;
+  }
+  .WinsForm form {
+    margin: 1.75rem 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  .WinsForm label {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  .WinsForm input,
+  .WinsForm textarea {
+    margin-top: 0.75rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+  }
+  .WinsForm #formsubmit {
+    margin-top: 0.5rem;
+    font-size: 1rem;
   }
 }
