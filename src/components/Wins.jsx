@@ -35,6 +35,9 @@ function Wins() {
               </p>
             </div>
             <p className="status-text">{win.fields.wins}</p>
+            <div>
+              <button id="like-button">🥳 {"        "}Wohoo!</button>
+            </div>
           </div>
         ))}
       </div>

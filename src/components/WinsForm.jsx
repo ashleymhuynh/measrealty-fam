@@ -29,6 +29,7 @@ function WinsForm(props) {
           type="text"
           value={name}
           onChange={(e) => setName(e.target.value)}
+          required
         />
         {/* <label htmlFor="name">Email: </label>
         <input
@@ -39,8 +40,11 @@ function WinsForm(props) {
         <label htmlFor="wins">Your Wins(big or small): </label>
         <textarea
           type="text"
+          rows="10"
+          cols="50"
           value={wins}
           onChange={(e) => setWins(e.target.value)}
+          required
         />
 
         <button id="formsubmit">Submit</button>

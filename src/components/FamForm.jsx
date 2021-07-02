@@ -32,6 +32,7 @@ function FamForm(props) {
         <label htmlFor="name">Name: </label>
         <input
           type="text"
+          required
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
@@ -40,12 +41,16 @@ function FamForm(props) {
           type="text"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
+          required
         />
         <label htmlFor="about">About: </label>
         <textarea
           name="about"
+          rows="5"
+          cols="50"
           value={about}
           onChange={(e) => setAbout(e.target.value)}
+          required
         />
         <label htmlFor="img">
           Img URL:{" "}
@@ -60,6 +65,7 @@ function FamForm(props) {
           type="text"
           value={imgURL}
           onChange={(e) => setImgURL(e.target.value)}
+          required
         />
         <button id="formsubmit">Submit</button>
       </form>
