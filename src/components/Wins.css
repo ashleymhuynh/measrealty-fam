@@ -57,3 +57,45 @@
   border-radius: 50%;
   box-shadow: 3px 3px 5px 4px rgba(38, 50, 158, 0.548);
 }
+
+@media screen and (max-width: 1025px) {
+  .Wins #header {
+    margin-top: 12rem;
+    font-size: 2.5rem;
+  }
+  button {
+    font-size: 1.75rem;
+  }
+}
+@media screen and (max-width: 376px) {
+  .Wins #header {
+    margin-top: 11rem;
+    margin-bottom: 0;
+    font-size: 2.5rem;
+  }
+  button {
+    font-size: 1.1rem;
+  }
+  .Wins .holding-container {
+    width: 100%;
+    padding: 1rem;
+    margin: 0;
+  }
+  .status-container {
+    margin-bottom: 3rem;
+    flex-direction: column;
+  }
+  .status-container #date {
+    margin-top: 4rem;
+    margin-left: -4rem;
+    color: rgb(87, 86, 86);
+  }
+  .status-container .status-text {
+    font-size: 1.1rem;
+    margin: 3rem 1rem;
+  }
+  #like-button {
+    display: block;
+    margin: 0 auto;
+  }
+}

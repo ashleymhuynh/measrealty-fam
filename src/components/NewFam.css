@@ -71,6 +71,16 @@ button:hover {
   padding: 0;
 }
 
+@media screen and (max-width: 1025px) {
+  .NewFam #header {
+    margin-top: 12rem;
+    font-size: 2.5rem;
+  }
+  button {
+    font-size: 1.75rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .container {
     flex-direction: column;
