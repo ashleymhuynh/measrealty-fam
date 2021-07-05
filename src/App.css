@@ -12,7 +12,8 @@ body {
 p {
   display: block;
   margin: 0 auto;
-  margin-top: 10rem;
+  margin-top: 8rem;
+  margin-bottom: 4rem;
   max-width: 80%;
   text-align: center;
   font-family: "Castoro", serif;
@@ -25,7 +26,20 @@ p {
     width: 90%;
   }
   p {
+    margin-top: 15rem;
+    font-size: 1.95rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  #headerlogo {
+    margin-top: 15rem;
+    width: 90%;
+  }
+  p {
     font-size: 1.75rem;
+    line-height: 1.45;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
   }
 }
 @media screen and (max-width: 585px) {
@@ -47,5 +61,14 @@ p {
   #headerlogo {
     width: 90%;
     margin-top: 12rem;
+  }
+}
+@media screen and (max-width: 360px) {
+  #headerlogo {
+    width: 90%;
+    margin-top: 12rem;
+  }
+  p {
+    margin-top: 4rem;
   }
 }
