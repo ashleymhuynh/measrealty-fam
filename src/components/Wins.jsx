@@ -1,12 +1,13 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-// import Confetti from "react-confetti";
 import { baseURL, config } from "../services";
+import Like from "./Like";
 import "./Wins.css";
 
 function Wins() {
   const [winsData, setWinsData] = useState([]);
+
   useEffect(() => {
     const fetchWinsData = async () => {
       const winsURL = `${baseURL}/wins`;
@@ -15,21 +16,6 @@ function Wins() {
     };
     fetchWinsData();
   }, []);
-  const handleSubmit = () => {
-    const confetti = {
-      angle: 90,
-      spread: 360,
-      startVelocity: 40,
-      elementCount: 70,
-      dragFriction: 0.12,
-      stagger: 1,
-      width: "10px",
-      height: "100%",
-      // perspective: "500px",
-      colors: ["#a864fd", "#29cdff", "#78ff44", "#ff718d", "#fdff6a"],
-    };
-    setTimeout(confetti, 1000);
-  };
 
   return (
     <div className="Wins">
@@ -53,9 +39,7 @@ function Wins() {
             </div>
             <p className="status-text">{win.fields.wins}</p>
             <div>
-              <button onClick={handleSubmit} id="like-button">
-                🥳 {"        "}Wohoo!
-              </button>
+              <Like />
             </div>
           </div>
         ))}

@@ -70,31 +70,30 @@ Use this section to describe your final project and perhaps any links to relevan
 
 | Day        | Deliverable                                        | Status     |
 | ---------- | -------------------------------------------------- | ---------- |
-| June 28-29 | Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete |
-| June 29    | Project Approval                                   | Incomplete |
-| July 30    | Core Application Structure (HTML, CSS, etc.)       | Incomplete |
-| July 1     | Initial Clickable Model                            | Incomplete |
-| July 2     | MVP                                                | Incomplete |
-| July 6     | Presentations                                      | Incomplete |
+| June 28-29 | Prompt / Wireframes / Priority Matrix / Timeframes | Complete   |
+| June 29    | Project Approval                                   | Complete   |
+| July 30    | Core Application Structure (HTML, CSS, etc.)       | Complete   |
+| July 1     | Initial Clickable Model                            | Complete   |
+| July 2     | MVP                                                | Complete   |
+| July 7     | Presentations                                      | Incomplete |
 
 ## Timeframes
 
 | Component          | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------ | :------: | :------------: | :-----------: | :---------: |
 | WireFrame          |    H     |      4hrs      |     3hrs      |    3hrs     |
-| General Research   |    H     |      3hrs      |      TDB      |     TDB     |
-| Inital React       |    H     |      3hrs      |      TDB      |     TBD     |
-| Create Skeleton    |    H     |      3hrs      |      TDB      |     TBD     |
-| Working with API   |    H     |      3hrs      |      TBD      |     TDB     |
-| Render Results     |    H     |      3hrs      |      TBD      |     TBD     |
-| Basic Styling      |    H     |      3hrs      |      TBD      |     TBD     |
-| CSS For Results    |    H     |      3hrs      |      TBD      |     TBD     |
-| Post MVP Rendering |    M     |      3hrs      |      TBD      |     TBD     |
-| Post MVP Style     |    M     |      3hrs      |      TBD      |     TBD     |
-| Media Query        |    H     |      3hrs      |      TBD      |     TBD     |
-| Debugging          |    H     |      3hrs      |      TBD      |     TBD     |
+| General Research   |    H     |      3hrs      |     3hrs      |    3hrs     |
+| Inital React       |    H     |      3hrs      |     3hrs      |    3hrs     |
+| Create Skeleton    |    H     |      3hrs      |     3hrs      |    3hrs     |
+| Working with API   |    H     |      3hrs      |     3hrs      |    3hrs     |
+| Render Results     |    H     |      3hrs      |     3hrs      |    3hrs     |
+| Basic Styling      |    H     |      3hrs      |     3hrs      |    3hrs     |
+| CSS For Results    |    H     |      3hrs      |     3hrs      |    3hrs     |
+| Post MVP Rendering |    M     |      3hrs      |     1hrs      |    1hrs     |
+| Media Query        |    H     |      3hrs      |     3hrs      |    3hrs     |
+| Debugging          |    H     |      3hrs      |     3hrs      |    3hrs     |
 
-| Total | H | 37hrs| TBD | TBD |
+| Total | H | 37hrs| 31hrs | 31hrs |
 
 ## SWOT Analysis
 

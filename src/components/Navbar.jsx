@@ -21,7 +21,7 @@ function Navbar() {
           <Link to="/wins" className="navlink">
             <li>Wins</li>
           </Link>
-          <Link to="events" className="navlink">
+          <Link to="/events" className="navlink">
             <li>Events/Networking</li>
           </Link>
         </ul>

@@ -20,14 +20,34 @@ p {
   font-size: 1.25rem;
   line-height: 1.75;
 }
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1440px) {
   #headerlogo {
-    margin-top: 18rem;
-    width: 90%;
+    margin-top: 10rem;
+    width: 70%;
   }
   p {
+    margin-top: 5.5rem;
+    font-size: 1.35rem;
+  }
+}
+@media screen and (max-width: 1390px) {
+  #headerlogo {
+    margin-top: 12rem;
+    width: 70%;
+  }
+  p {
+    margin-top: 10rem;
+    font-size: 1.25rem;
+  }
+}
+@media screen and (max-width: 1025px) {
+  #headerlogo {
     margin-top: 15rem;
-    font-size: 1.95rem;
+    width: 80%;
+  }
+  p {
+    margin-top: 5.5rem;
+    font-size: 1.25rem;
   }
 }
 @media screen and (max-width: 768px) {

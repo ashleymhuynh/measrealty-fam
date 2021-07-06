@@ -4,6 +4,7 @@ import NewFam from "./components/NewFam";
 import Wins from "./components/Wins";
 import WinsForm from "./components/WinsForm.jsx";
 import FamForm from "./components/FamForm";
+import Events from "./components/Events";
 import Footer from "./components/Footer";
 import "./App.css";
 
@@ -38,6 +39,9 @@ function App() {
       </Route>
       <Route path="/newwins">
         <WinsForm />
+      </Route>
+      <Route path="/events">
+        <Events />
       </Route>
 
       <footer>
