@@ -18,7 +18,9 @@ class Like extends Component {
         <button id="like-button" onClick={() => this.increment()}>
           WOOT!!! 🥳
         </button>
-        <h5 id="like-count">{this.state.count} like this win!</h5>
+        <h5 id="like-count">
+          {this.state.count} people like this win! Wohoo!! 🍻
+        </h5>
       </div>
     );
   }
